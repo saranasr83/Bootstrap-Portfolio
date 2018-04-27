@@ -6,18 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
     <link rel="stylesheet" href="HW-reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <div class="row">
+    
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                    <a class="my-name" href="index.html">Sara Khosravi</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- <div class="row">
 
             <div class="col-md-2">
                 <div class="my-name">
@@ -46,63 +56,69 @@
             </div>
             <div class="col-md-4"></div>
 
-        </div>
+        </div> -->
+        
     </header>
-    <div class="wrap">
-        <section>
-            <div class="section-content-page3">
-                <h2>Portfolio</h2>
-                <hr>
-            </div>
-
-            <div class="content-page3">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="box-1 box">
-                            <img src="http://via.placeholder.com/200x200" class="img-fluid" alt="placeholder">
-                            <p class="">Hangman</p>
+    <div class="container">
+        <div class="wrap">
+            <section>
+                <div class="section-content">
+                    <h2>Portfolio</h2>
+                </div>
+                    <hr>
+                <div class="content portfolio-wrap">
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 port-container">
+                            <div class="box-1 box">
+                                <img src="https://i.ytimg.com/vi/BgIgKcqPd4k/maxresdefault.jpg" class="img-fluid" alt="placeholder">
+                                <p class="">Hangman</p>
+                            </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-sm-12 port-container">
                             <div class="box-4 box">
-                                <img src="http://via.placeholder.com/200x200" class="img-fluid" alt="placeholder">
+                                <img src="https://www.thehappycatsite.com/wp-content/uploads/2017/10/best-treats-for-kittens.jpg" class="img-fluid" alt="placeholder">
                                 <p class="rpg-game">RPG Game</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="box-2 box">
-                            <img src="http://via.placeholder.com/200x200" class="img-fluid" alt="placeholder">
-                            <p class="trivia-game">Trivia Game</p>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 port-container">
+                            <div class="box-2 box">
+                                <img src="https://www.petmd.com/sites/default/files/petmd-kitten-facts.jpg" class="img-fluid" alt="placeholder">
+                                <p class="trivia-game">Trivia Game</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 port-container">
+                            <div class="box-5 box">
+                                <img src="https://www.drmartybecker.com/wp-content/uploads/2017/04/bigstock_Kitten_rests_-_isolated_18734771-from-Dell-2016.jpg" class="img-fluid" alt="placeholder">
+                                <p class="Rutgers-info">Rutgers Info Widget</p>
+                            </div>
+                        </div>
+                    </div> 
+                   <div class="row">
+                        <div class="col-md-6 col-sm-12 port-container">
+                            <div class="box-3 box">
+                                <img src="https://www.sdhumane.org/wp-content/uploads/2017/06/10k_nova-0.jpg" class="img-fluid" alt="placeholder">
+                                <p class="rock-paper-scissors">Rock Paper Scissors</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12 port-container">
+                                
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="box-5 box">
-                            <img src="http://via.placeholder.com/200x200" class="img-fluid" alt="placeholder">
-                            <p class="Rutgers-info">Rutgers Info Widget</p>
-                        </div>
-                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="box-3 box">
-                        <img src="http://via.placeholder.com/200x200" class="img-fluid" alt="placeholder">
-                        <p class="rock-paper-scissors">Rock Paper Scissors</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="row">
-        <div class="col-lg-12">
-
-            <footer>
-                <p class="p3">Copyright &#169;</p>
-            </footer>
+            
+            </section>
         </div>
-    </div>
+   </div>
+
+    <footer class="portfolio-footer">
+        <div class="container">
+                <p class="p3">Copyright &#169;</p>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
