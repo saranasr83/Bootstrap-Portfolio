@@ -1,5 +1,9 @@
-# Bootstrap-Portfolio
+# Portfolio
 This is my updated portfolio including all the projects that I have done so far. 
+
+## Getting Started
+
+Open up the [project link](https://saranasr83.github.io/Bootstrap-Portfolio/)
 
 ## built with
 
